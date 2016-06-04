@@ -1,0 +1,154 @@
+.header {
+	background-color: #304D6D;
+}
+.navbar {
+	margin-bottom: 0;
+	border: 0;
+}
+.navbar-default {
+	background-color: #304D6D;
+}
+.content1 {
+	background-color: #365478;
+	height: 550px;
+}
+.section1 {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	height: 35%;
+}
+.section11 h1 {
+	color: #fff;
+}
+.section12 img {
+	width: 100%;
+	height: 100px;
+}
+
+
+.myslider {
+	height: 400px;
+}
+.slider-img {
+	width: 50%;
+	float: left;
+	height: inherit;
+}
+.slider-img img {
+	width: 100%;
+	height: inherit;
+}
+.slider-text {
+	background-color: #EA5865;
+	color: #fff;
+	font-size: 400%;
+	float: left;
+	padding-left: 100px;
+	padding-top: 50px;
+	width: 50%;
+	height:inherit; 
+
+}
+
+.content2 {
+	clear: both;
+	background-color: #fff;
+}
+.section3 {
+	padding: 100px 0 50px 0;
+}
+.section31 {
+}
+.myitem {
+	clear: both;
+	color: gray;
+}
+.myitem-logo {
+	float: left;
+	width: 20%;
+	padding-top: 20px;
+}
+.myitem-text {
+	float: left;
+	width: 80%;
+}
+.section32 {
+	color: #fff;
+	min-height: 441px; 
+}
+.sub321 {
+	overflow: hidden; 
+	background-color: #365478; 
+	min-height: 300px;
+}
+.sub321 img {
+	min-height: 300px;
+	width: 300px;
+}
+.vote-image {
+	float: left;
+}
+.vote-text {
+	float: left;
+	background-color: #365478; 
+}
+.vote-title {
+	padding-left: 20px;
+	padding: 30px 20px;
+}
+.vote-subtitle {
+	margin-left: 70px;
+}
+.sub322 {
+	clear: both;
+	background-color: #EA5865;
+	min-height: 141px;
+}
+.sub322-phone {
+	position: absolute;
+	font-size: 30px;
+	left: 30px;
+	padding-top: 30px;
+}
+.sub322-address {
+	position: relative;
+	left: 300px;
+	padding-top: 40px;
+}
+
+
+
+.section4 {
+	clear: both;
+	padding: 60px 0 30px 0;
+	height: 40%;
+}
+.section41 {
+	font-size: 350%;
+	color: #E96C7A;
+
+}
+.section42 {
+	padding-right: 50px;
+
+}
+.p2 {
+	color: #c0c0c0;
+	padding-top: 20px;
+}
+.section43 {
+}
+.section43 img {
+	max-width: 100%;
+	opacity: .7;
+}
+.logo {
+	font-size: 80px;
+	color: gray;
+}
+
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }

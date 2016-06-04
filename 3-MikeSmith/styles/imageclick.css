@@ -1,0 +1,22 @@
+.modal-dialog {
+	width:650px;
+}
+.modal-header {
+	padding: 6px 5px 0;
+	border-bottom: none;
+}
+.modal-body {
+	padding: 5px 15px;
+	height: 400px;
+}
+.modal-body img {
+	height: 400px;
+}
+.close {
+	font-size: 19px;
+	line-height: 0.5;
+	opacity: 0.5;
+}
+button.close {
+	padding: 5px;
+}

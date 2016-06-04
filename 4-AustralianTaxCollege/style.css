@@ -1,0 +1,325 @@
+body {
+	background: #B1BBC5;  /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#B1BBC5, #FFF 10%); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#B1BBC5, #FFF 10%); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#B1BBC5, #FFF 10%); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#B1BBC5, #FFF 10%); /* Standard syntax */
+    font-family: Verdana, arial;
+    margin: 0;
+    padding: 0;
+}
+.link,
+.link:visited,
+.link:hover,
+.link:active {
+	text-decoration: underline;
+	color: #990033;
+}
+#page {
+	background-color: #fff;
+	margin: 26px auto;
+	padding: 0;
+	width: 67%;
+	box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.8), 0 0 8px 0 rgba(0, 0, 0, 0.19);
+}
+#banner img {
+	width: 100%;
+}
+#bar {
+	background-color: #000000;
+}
+#bar-date {
+	color: #fff;
+	text-align: right;
+	font-size: 110%;
+	padding: 5px 10px;
+}
+#main {
+	background-color: #990033;
+	margin: -10px 0;
+}
+#menu {
+	color: #fff;
+}
+#menu ul {
+	list-style-type: none;
+	margin: 20px 0;
+	padding: 0;
+}
+#menu li {
+	border-bottom: 1px dotted #999;
+	width: 80%;
+	margin: auto;
+	padding-top: 6px;
+}
+#menu li a, #menu li a:visited, #menu li a:hover, #menu li a:active {
+	color: #fff;
+	text-decoration: none;
+}
+form {
+	width: 80%;
+	margin: 20% auto;
+}
+form label {
+	margin-bottom: 0;
+	font-weight: normal;
+}
+#email, 
+#password {
+	margin-bottom: 10px;
+	color: #000;
+	width: 90%;
+}
+#logon {
+	color: #000;
+	float: right;
+	margin-right: 10%;
+}
+#content {
+	background-color: #fff;
+}
+#home {
+	padding: 0;
+}
+#home section {
+	padding: 50px 30px; 
+}
+#home-title,
+#tax-question {
+	color: #990033;
+	font-weight: bold;
+	border-bottom: 1px solid #999;
+}
+.item {
+	margin: 10px 0 40px;
+}
+.item span, footer {
+	color: #999;
+	font-size: 85%;
+}
+#tax {
+	margin-top: 30px;
+}
+#tax .panel-body {
+	padding: 10px;
+}
+#calendar .panel-body {
+	padding: 0;
+}
+#calendar-bottom {
+	padding: 10px;
+}
+#calendar a {
+	font-weight: bold;
+}
+#calendar ul {
+	list-style-type: none;
+	margin-left: -40px;
+}
+#calendar ul li {
+	background-image: linear-gradient(
+      rgba(51, 102, 204, 1), rgba(51, 102, 204, 1)
+    ), url('images/stop.png');
+	background-repeat: no-repeat;
+	background-position: left 2px;
+	background-size: 17px 17px;
+	padding-left: 22px;
+}
+#calendar ul li:first-child {
+	background-image: linear-gradient(
+      rgba(102, 204, 51, 0.9), rgba(102, 204, 51, 0.9)
+    ), url('images/stop.png');
+}
+table {
+	border: 1px solid #ccc;
+	border-collapse: separate;
+	border-spacing: 2px;
+	margin: 0 auto 20px;
+	table-layout: fixed;
+}
+th {
+	color: #fff;
+	background-color: #990033;
+}
+.table > thead > tr > th, 
+.table > tbody > tr > th,
+.table > tbody > tr > td {
+	border: 1px solid #ccc;
+	font-size: 90%;
+	font-weight: normal;
+	padding: 2px;
+	text-align: center;
+}
+caption {
+	color: #000;
+	padding-bottom: 2px;
+	padding-top: 1px;
+	text-align: center;
+	font-size: 100%;
+}
+.offday {
+	background-color: #DDDDDD;
+}
+.active-day {
+	background-color: #3366CC;
+	cursor: pointer;
+}
+footer {
+	text-align: center;
+}
+
+/*apple ipad, ipad mini, blackberry playbook	1024*/
+@media screen and (max-width: 1200px) {
+	#page {
+		width: 90%;
+	}
+	#home section {
+		padding: 40px 15px; 
+	}
+	.table > thead > tr > th, 
+	.table > tbody > tr > th,
+	.table > tbody > tr > td {
+		padding: 1px;
+		font-size: 90%;
+	}
+}
+
+/*Small device - tablet 768 - 991*/
+@media screen and (max-width: 991px) {
+	body {
+		font-size: 13px;
+	}
+	#page {
+		width: 100%;
+		margin: 0;
+	}
+	#bar-date {
+		padding: 4px 8px;
+	}
+	#menu {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	#email,
+	#password {
+		height: 18px;
+	}
+	#logon {
+		font-size: 80%;
+		font-weight: bold;
+		padding: 1px;
+	}
+	.table > thead > tr > th, 
+	.table > tbody > tr > th,
+	.table > tbody > tr > td {
+		padding: 1px;
+		font-size: 80%;
+	}
+}
+/*Extra small device - phone*/
+@media screen and (max-width: 767px) {
+	body {
+		font-size: 12px;
+	}
+	#bar-date {
+		padding: 3px 6px;
+	}
+	#menu {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	#email, 
+	#password {
+		margin-bottom: 8px;
+		height: 17px;
+	}
+	#home section {
+		padding: 20px 5px; 
+	}
+	#side {
+		padding: 4px;
+	}
+	#tax .panel-body {
+		padding: 3px;
+	}
+	.table > thead > tr > th, 
+	.table > tbody > tr > th,
+	.table > tbody > tr > td {
+		padding: 0;
+		font-size: 30%;
+	}
+	caption {
+		font-size: 60%;
+	}
+	#calendar-bottom {
+		padding: 5px;
+	}
+	#calendar-bottom a:before {
+		content: '\A';
+		white-space: pre;
+	}
+	#calendar ul li {
+		background-position: left 3px;
+		background-size: 10px 10px;
+		padding-left: 12px;
+	}
+}
+@media screen and (max-width: 480px) {
+	body {
+		font-size: 11px;
+	}
+	#bar-date {
+		padding: 2px 4px;
+	}
+	#email, 
+	#password {
+		margin-bottom: 6px;
+		height: 14px;
+	}
+	#logon {
+		padding: 0;
+	}
+	#home section {
+		padding: 15px 5px; 
+	}
+	#side {
+		padding: 2px;
+	}
+	#tax .panel-body {
+		padding: 1px;
+	}
+	caption {
+		font-size: 38%;
+	}
+	#calendar ul li {
+		background-position: left 4px;
+		background-size: 6px 6px;
+		padding-left: 8px;
+	}
+}
+/*iphone 6 plus*/
+@media screen and (max-width: 414px) {
+	body {
+		font-size: 10px;
+	}
+	#bar-date {
+		padding: 1px 4px;
+	}
+	#email, 
+	#password {
+		margin-bottom: 5px;
+		height: 12px;
+	}
+}
+/*blackberry z30, nexus 5, nokia N9, galaxy note 3, II, galaxy S3, galaxy s4*/
+@media screen and (max-width: 360px) {
+	#email, 
+	#password {
+		margin-bottom: 6px;
+		height: 10px;
+	}
+}
+/*iphone 4, 5, nokia lumia 520*/
+@media screen and (max-width: 320px) {
+	
+}
